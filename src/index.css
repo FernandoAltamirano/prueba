@@ -1,0 +1,61 @@
+:root {
+  --principal: #1b242f;
+  --red: #e31b6d;
+  --lightblue: #04c2c9;
+  --gray: #c4c4c4;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+body {
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  font-family: "Roboto", sans-serif;
+  background-color: var(--principal);
+  background-image: url("./images/h.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #04c2c9;
+  border-radius: 10px;
+}
+
+.button {
+  color: white;
+  background-color: var(--principal);
+  border: 1px solid white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 450ms all;
+  border-radius: 5px;
+}
+
+.button span {
+  margin-right: 5px;
+}
+
+.wrapper {
+  width: 85%;
+  max-width: 600px;
+  margin: 0 auto;
+}

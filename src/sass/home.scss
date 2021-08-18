@@ -1,0 +1,68 @@
+#home {
+  background-color: var(--principal);
+  height: 75vh;
+  opacity: 0.9;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  .contactLink {
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 450ms all;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 5px;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 80vh;
+    &-typed {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+    }
+    .button:hover {
+      background-color: var(--lightblue);
+    }
+  }
+  h1 {
+    font-size: 40px;
+    span {
+      color: var(--red);
+    }
+  }
+  .container-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    .button {
+      margin: 2px;
+      padding-left: 4px;
+      padding-right: 4px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container-buttons {
+      .button {
+        margin: 2px 20px;
+      }
+    }
+  }
+  @media (min-width: 1440px) {
+    font-size: 1.5em;
+  }
+}

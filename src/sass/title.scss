@@ -1,0 +1,38 @@
+#title {
+  height: 100px;
+  background-color: transparent;
+  border-bottom: 5px solid var(--lightblue);
+  background-color: var(--principal);
+  opacity: 0.9;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+  }
+  .title {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    margin-bottom: 10px;
+    h1 {
+      font-size: 1.6em;
+    }
+  }
+  @media (min-width: 768px) {
+    height: 150px;
+  }
+}
+.title-image {
+  text-align: right;
+  background-color: white;
+}
+
+.title-image img {
+  background-color: white;
+  height: 100px;
+  width: 110px;
+  border-radius: 50%;
+  border: 5px solid var(--lightblue);
+  margin-top: -50px;
+}

@@ -1,0 +1,21 @@
+#portfolio {
+  background-color: white;
+  .container {
+    max-width: 700px;
+    margin: auto;
+    .more {
+      text-align: center;
+      background-color: transparent;
+      color: var(--principal);
+      border: none;
+      text-decoration: underline;
+      span {
+        margin: auto;
+      }
+    }
+  }
+  .container-projects {
+    padding-top: 40px;
+    background-color: white;
+  }
+}
